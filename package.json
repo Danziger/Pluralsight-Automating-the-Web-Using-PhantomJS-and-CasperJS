@@ -1,0 +1,16 @@
+{
+  "name": "pluralsight-automating-the-web-using-phantomjs-and-casperjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/casperjs test test/main.js",
+    "start": "./node_modules/.bin/casperjs networkMonitoring.js"
+  },
+  "author": "Daniel Gámez Franco",
+  "license": "MIT",
+  "dependencies": {
+    "casperjs": "^1.1.3",
+    "phantomjs-prebuilt": "^2.1.14"
+  }
+}
